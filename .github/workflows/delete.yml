@@ -1,4 +1,4 @@
-name: "dev Infra Build"
+name: "dev Infra Deletion"
 
 on:
   workflow_dispatch:
