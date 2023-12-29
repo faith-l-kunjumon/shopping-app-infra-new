@@ -23,6 +23,7 @@ resource "aws_security_group" "frontend" {
     cidr_blocks      = ["0.0.0.0/0"]
     ipv6_cidr_blocks = ["::/0"]
   }
+
     
     ingress {
     from_port        = 443
